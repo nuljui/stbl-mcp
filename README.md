@@ -97,9 +97,14 @@ npm install
 # Run tests
 python -m pytest servers/tests/
 npm test
-
 # Build Docker images
 docker build -t stbl/mcp-server servers/
+
+# Start Node.js MCP server (experimental)
+cd servers/node
+npm install
+npm run start:mcp
+cd ../..
 ```
 
 ## 🎯 Why This Architecture?

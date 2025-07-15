@@ -1,0 +1,22 @@
+{
+  "name": "stability-mcp-node",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:mcp": "npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "dotenv": "^16.4.5",
+    "ws": "^8.15.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
