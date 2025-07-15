@@ -1,5 +1,5 @@
 # Task 01: Set up Node.js MCP server structure
-**Difficulty: 2/5 (Easy)** - **✅ COMPLETED**
+**Difficulty: 2/5 (Easy)**
 
 ## Description
 Initialize TypeScript project with MCP SDK and port API configuration from existing Python toolkit.

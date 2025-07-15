@@ -1,5 +1,5 @@
 # Task 05: Build event subscription system
-**Difficulty: 4/5 (Hard)**
+**Difficulty: 4/5 (Hard)** - **⚠️ PARTIALLY COMPLETED**
 
 ## Description
 Create WebSocket-based event subscription system for real-time blockchain events.
